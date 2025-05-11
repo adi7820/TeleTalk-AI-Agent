@@ -4,4 +4,17 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "aiofiles>=24.1.0",
+    "dotenv>=0.9.9",
+    "fastapi>=0.115.12",
+    "loguru>=0.7.3",
+    "nvidia-riva-client>=2.19.1",
+    "onnxruntime==1.20.1",
+    "onnxruntime-gpu>=1.22.0",
+    "pipecat-ai>=0.0.67",
+    "python-multipart>=0.0.20",
+    "twilio>=9.6.0",
+    "uvicorn>=0.34.2",
+    "websockets>=15.0.1",
+]
